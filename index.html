@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Todo App</h1>
+        <p class="header-desc">Организуй задачи — управляй жизнью</p>
+        <button class="theme-toggle"></button>
+    </header>
+
+    <main>
+        <section class="todo-section">
+            <div class="input-section">
+                <div class="container-input">
+                    <input class="input-text" type="text" placeholder="Введите новую задачу">
+                    <button type="button" class="add-btn">+ Add</button>
+                </div>
+            </div>
+
+            <div class="task-list">
+            </div>
+            
+            <div class="todo-footer">
+                <span class="count-list"></span>
+                <div class="filters-todo">
+                    <button class="active-filter">All</button>
+                    <button>Active</button>
+                    <button>Completed</button>
+                </div>
+                <button class="delete-list">Clear All</button>
+            </div>
+        </section>
+
+        <section class="feature-section">
+            <div class="feature-area">
+                <div class="overlay">
+                    <div class="icon-overlay">
+                        <img src="img/cloud.png" alt="cloud">
+                    </div>
+                    <h2 class="title-overlay">Cloud Sync</h2>
+                    <p class="desc-overlay">Access your todos from any device,anywhere.</p>
+                </div>
+                <div class="overlay">
+                    <div class="icon-overlay">
+                        <img src="img/private.png" alt="private">
+                    </div>
+                    <h2 class="title-overlay">Private</h2>
+                    <p class="desc-overlay">Your data is encrypted and only visible to you.</p>
+                </div>
+                <div class="overlay">
+                    <div class="icon-overlay">
+                        <img src="img/analytic.png" alt="analytics">
+                    </div>
+                    <h2 class="title-overlay">Analytics</h2>
+                    <p class="desc-overlay">Track your productivity trends over time.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="blur-top"></div>
+    <div class="blur-bottom"></div>
+
+    <footer>
+        <div class="footer-info">
+            <p class="footer-text">© 2026 Todo-App Dashboard in Vohidov A. Minimalist Design Series.</p>
+
+            <nav class="footer-links">
+                <a href="#">Keyboard Shortcuts</a>
+                <a href="#">Settings</a>
+                <a href="#">Help Center</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
